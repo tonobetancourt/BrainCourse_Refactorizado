@@ -1,0 +1,79 @@
+[
+    {
+        "id_curso": "curso_a9de2d1e",
+        "tema_general": "fisica",
+        "creador_email": "profesor1@gmail.com",
+        "miembros": [
+            {
+                "email": "profesor1@gmail.com",
+                "rol": "profesor"
+            },
+            {
+                "email": "alumno1@gmail.com",
+                "rol": "alumno"
+            }
+        ],
+        "modulos": [
+            {
+                "id_modulo": "mod_f81f91",
+                "titulo": "Módulo 1: Mecánica Clásica",
+                "subtemas": [
+                    "Cinemática: Desplazamiento, Velocidad y Aceleración",
+                    "Dinámica: Leyes de Newton",
+                    "Trabajo, Energía y Potencia",
+                    "Conservación de la Energía",
+                    "Impulso y Cantidad de Movimiento"
+                ],
+                "completado": false,
+                "calificacion_examen": null,
+                "teoria_generada": {
+                    "Cinemática: Desplazamiento, Velocidad y Aceleración": "¡Claro! Vamos a entender la cinemática, que básicamente describe cómo se mueven las cosas sin preocuparnos por qué se mueven. Nos enfocaremos en desplazamiento, velocidad y aceleración.\n\n**¿Qué es el Desplazamiento?**\n\nImagina que caminas de tu casa a la tienda. El desplazamiento es la distancia *directa* y la dirección entre tu casa y la tienda, ¡no importa si diste un rodeo! Es un vector, lo que significa que tiene magnitud (cuánto te moviste) y dirección (hacia dónde).\n\n*   **Fórmula clave:**  Δx = x<sub>f</sub> - x<sub>i</sub>  (donde Δx es el desplazamiento, x<sub>f</sub> es la posición final y x<sub>i</sub> es la posición inicial)\n\n**¿Qué es la Velocidad?**\n\nLa velocidad nos dice qué tan rápido te estás moviendo y en qué dirección. Es el cambio de desplazamiento en un intervalo de tiempo.\n\n*   **Velocidad media:** Es el desplazamiento total dividido por el tiempo total transcurrido.\n    *   **Fórmula clave:** v<sub>media</sub> = Δx / Δt  (donde Δt es el cambio en el tiempo)\n*   **Velocidad instantánea:** Es la velocidad en un momento específico. Piensa en la velocidad que marca el velocímetro de un coche.\n\n**¿Qué es la Aceleración?**\n\nLa aceleración nos dice qué tan rápido está cambiando tu velocidad. Si estás acelerando en un coche, tu velocidad está aumentando. Si estás frenando, tu velocidad está disminuyendo (esto también es aceleración, ¡pero en la dirección opuesta!).\n\n*   **Aceleración media:** Es el cambio de velocidad dividido por el tiempo transcurrido.\n    *   **Fórmula clave:** a<sub>media</sub> = Δv / Δt  (donde Δv es el cambio en la velocidad)\n*   **Aceleración instantánea:** Es la aceleración en un momento específico.\n\n**Ejemplo Resuelto:**\n\nImagina que un coche se mueve en línea recta.\n\n*   En el tiempo t = 0 segundos, está en la posición x = 5 metros.\n*   En el tiempo t = 2 segundos, está en la posición x = 15 metros.\n\n1.  **Desplazamiento:** Δx = x<sub>f</sub> - x<sub>i</sub> = 15 m - 5 m = 10 metros. El coche se desplazó 10 metros.\n2.  **Velocidad Media:** v<sub>media</sub> = Δx / Δt = 10 m / 2 s = 5 m/s. La velocidad media del coche es de 5 metros por segundo.  Asumimos que la velocidad es constante.\n\n¡Eso es todo por ahora! Recuerda que estos conceptos son fundamentales para entender cómo se mueven las cosas. ¿Te gustaría practicar con algunos ejercicios? Puedes usar el botón '🧠 Practicar' en el menú para generar un quiz sobre cinemática. ¡Es una forma genial de consolidar lo que aprendiste!",
+                    "Impulso y Cantidad de Movimiento": "¡Hola! ¡Claro que sí! Vamos a desglosar \"Impulso y Cantidad de Movimiento\" para que te quede súper claro.\n\n**¿Qué es la Cantidad de Movimiento?**\n\nImagina que tienes una pelota de tenis y un camión. Ambos se están moviendo, pero el camión es mucho más difícil de detener, ¿verdad? Eso es porque tiene mucha más \"cantidad de movimiento\".\n\nLa cantidad de movimiento es una medida de cuánto \"ímpetu\" tiene un objeto en movimiento. Depende de dos cosas:\n\n*   **La masa del objeto (cuánto \"pesa\")**\n*   **Su velocidad (qué tan rápido se mueve)**\n\n**Fórmula clave de la Cantidad de Movimiento:**\n\nCantidad de Movimiento (p) = masa (m) * velocidad (v)\n\n*   p = m * v\n\n**¿Qué es el Impulso?**\n\nEl impulso es como un \"empujón\" que le das a un objeto.  Es la fuerza que aplicas durante un cierto tiempo y que cambia la cantidad de movimiento de ese objeto.\n\n**Fórmula clave del Impulso:**\n\nImpulso (J) = Fuerza (F) * Tiempo (Δt)\n\n*   J = F * Δt\n\n**Relación entre Impulso y Cantidad de Movimiento:**\n\nAquí viene lo interesante: El Impulso es IGUAL al cambio en la Cantidad de Movimiento. En otras palabras, el \"empujón\" (impulso) que le das a un objeto es lo que hace que cambie su \"ímpetu\" (cantidad de movimiento).\n\nMatemáticamente:\n\nJ = Δp  (Impulso = Cambio en la Cantidad de Movimiento)\n\nO, desglosando más:\n\nF * Δt = m * Δv  (Fuerza * Tiempo = Masa * Cambio en la Velocidad)\n\n**Ejemplo Simple Resuelto:**\n\nImagina que tienes una pelota de béisbol de 0.15 kg que se mueve hacia ti a 20 m/s.  La golpeas con un bate y la pelota sale disparada en dirección opuesta a 30 m/s.  Si el bate estuvo en contacto con la pelota durante 0.001 segundos, ¿cuál fue la fuerza promedio que aplicaste con el bate?\n\n1.  **Calcula el cambio en la velocidad (Δv):**\n    *   La velocidad final es +30 m/s (la consideramos positiva porque va en dirección opuesta a la inicial).\n    *   La velocidad inicial es -20 m/s (negativa porque es en la dirección inicial).\n    *   Δv = 30 m/s - (-20 m/s) = 50 m/s\n\n2.  **Aplica la fórmula: F * Δt = m * Δv**\n    *   F * 0.001 s = 0.15 kg * 50 m/s\n\n3.  **Despeja la Fuerza (F):**\n    *   F = (0.15 kg * 50 m/s) / 0.001 s\n    *   F = 7500 N\n\n**Respuesta:** La fuerza promedio que aplicaste con el bate fue de 7500 Newtons.\n\n**En resumen:**\n\n*   La cantidad de movimiento es una medida del \"ímpetu\" de un objeto en movimiento.\n*   El impulso es un \"empujón\" que cambia la cantidad de movimiento de un objeto.\n*   El impulso es igual al cambio en la cantidad de movimiento.\n\n¡Espero que esto te haya ayudado! ¿Hay algo más en lo que te pueda ayudar sobre este tema?  Quizás te interese practicar con ejercicios.  En ese caso, puedes hacer clic en el botón '🧠 Practicar' en el menú de la izquierda para generar un quiz sobre impulso y cantidad de movimiento. ¡Avísame si tienes alguna otra pregunta!"
+                }
+            },
+            {
+                "id_modulo": "mod_6dd97a",
+                "titulo": "Módulo 2: Termodinámica",
+                "subtemas": [
+                    "Conceptos Básicos: Temperatura y Calor",
+                    "Primera Ley de la Termodinámica",
+                    "Segunda Ley de la Termodinámica y Entropía",
+                    "Procesos Termodinámicos: Isotérmico, Adiabático, Isobárico e Isocórico"
+                ],
+                "completado": false,
+                "calificacion_examen": null,
+                "teoria_generada": {}
+            },
+            {
+                "id_modulo": "mod_947b7a",
+                "titulo": "Módulo 3: Electromagnetismo",
+                "subtemas": [
+                    "Electrostática: Carga Eléctrica y Ley de Coulomb",
+                    "Campo Eléctrico y Potencial Eléctrico",
+                    "Corriente Eléctrica y Circuitos",
+                    "Magnetismo: Campos Magnéticos y Fuerza Magnética",
+                    "Inducción Electromagnética"
+                ],
+                "completado": false,
+                "calificacion_examen": null,
+                "teoria_generada": {}
+            },
+            {
+                "id_modulo": "mod_5e8c01",
+                "titulo": "Módulo 4: Ondas y Óptica",
+                "subtemas": [
+                    "Movimiento Ondulatorio: Tipos de Ondas",
+                    "Superposición e Interferencia de Ondas",
+                    "Ondas Sonoras: Características y Fenómenos",
+                    "Naturaleza de la Luz: Reflexión y Refracción",
+                    "Óptica Geométrica: Lentes y Espejos"
+                ],
+                "completado": false,
+                "calificacion_examen": null,
+                "teoria_generada": {}
+            }
+        ],
+        "progreso_general": 0.0,
+        "calificacion_promedio": null
+    }
+]

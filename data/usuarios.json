@@ -1,0 +1,1402 @@
+{
+    "jesus@gmail.com": {
+        "nombre": "Jesus Olvera",
+        "contrasena_hash": "a54e71f0e17f5aaf7946e66ab42cf3b1fd4e61d60581736c9f0eb1c3f794eb7c",
+        "rol": "alumno",
+        "perfil_completo": true,
+        "datos_perfil": {
+            "fecha_nacimiento": "2005-10-20",
+            "edad_calculada": 19,
+            "nivel_estudios": "Universidad",
+            "año_cursado": "4er Semestre",
+            "objetivo_principal": "Reforzar mis conocimientos",
+            "autoevaluacion": "Me defiendo"
+        },
+        "progreso": {
+            "nivel": 1,
+            "racha_correctas": 1
+        },
+        "historial_temas": [
+            "Sumas",
+            "Restas"
+        ],
+        "logros": {
+            "primer_quiz": "2025-07-17T23:12:25.907207",
+            "mente_brillante": null,
+            "racha_5": null,
+            "polimata_5": null
+        },
+        "estadisticas": {
+            "preguntas_totales": 9,
+            "aciertos_totales": 4,
+            "rendimiento_por_tema": {
+                "Restas": {
+                    "aciertos": 2,
+                    "total": 6
+                },
+                "Sumas": {
+                    "aciertos": 2,
+                    "total": 3
+                }
+            }
+        },
+        "cursos": [
+            {
+                "id_curso": "curso_bc3ad583",
+                "tema_general": "Sistemas Operativos",
+                "progreso_general": 0.0,
+                "calificacion_promedio": null,
+                "modulos": [
+                    {
+                        "id_modulo": "mod_80c650",
+                        "titulo": "Módulo 1: Introducción a los Sistemas Operativos",
+                        "subtemas": [
+                            "¿Qué es un Sistema Operativo?",
+                            "Funciones del Sistema Operativo",
+                            "Tipos de Sistemas Operativos (Batch, Tiempo Real, Tiempo Compartido, etc.)",
+                            "Estructura del Sistema Operativo (Núcleo, Shell)",
+                            "Llamadas al Sistema"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {
+                            "¿Qué es un Sistema Operativo?": "¡Hola! Soy Brainy, tu tutor de matemáticas (y ahora, también de sistemas operativos). Aunque un sistema operativo no es estrictamente un tema matemático, es fundamental para entender cómo funcionan las computadoras, y usa principios lógicos que se relacionan con las matemáticas. Vamos a desglosarlo de forma sencilla.\n\n**¿Qué es un Sistema Operativo (SO)?**\n\nImagina que tienes un montón de piezas de un coche: el motor, las ruedas, el volante... Pero para que el coche funcione, necesitas un conductor que sepa cómo hacer que todas las piezas trabajen juntas.  El Sistema Operativo es como ese conductor para tu computadora.\n\nEn términos más técnicos, un Sistema Operativo es:\n\n*   **Un software esencial:**  Es el programa principal que se ejecuta en una computadora o dispositivo similar.\n*   **Un intermediario:** Actúa como un puente entre el hardware de tu computadora (la pantalla, el teclado, el disco duro, etc.) y los programas que quieres usar (como un navegador web, un procesador de textos o un juego).\n*   **Un administrador:**  Gestiona todos los recursos de la computadora, como la memoria, el procesador (CPU), el almacenamiento y los dispositivos de entrada/salida.\n\n**¿Qué hace un Sistema Operativo?**\n\nPiensa en estas tareas clave:\n\n*   **Gestiona la memoria:** Decide qué programas pueden usar qué partes de la memoria RAM para que no haya conflictos.\n*   **Administra el procesador (CPU):**  Asigna tiempo del procesador a los diferentes programas que se están ejecutando para que parezca que todo está funcionando al mismo tiempo.\n*   **Controla los dispositivos de entrada/salida:**  Permite que tu computadora se comunique con el teclado, el ratón, la pantalla, la impresora, etc.\n*   **Gestiona los archivos:**  Organiza los archivos y carpetas en tu disco duro para que puedas encontrarlos fácilmente.\n*   **Proporciona una interfaz de usuario:**  Te permite interactuar con la computadora, ya sea mediante una interfaz gráfica (como Windows o macOS) o mediante una línea de comandos (como la terminal de Linux).\n\n**¿Fórmulas Clave? (Más bien, Principios Lógicos)**\n\nAunque no hay fórmulas matemáticas directas, el diseño de un SO se basa en la **lógica booleana** y en **estructuras de datos** eficientes.\n\n*   **Lógica Booleana:** El SO toma muchas decisiones basadas en condiciones Verdadero/Falso. Por ejemplo, \"Si el usuario tiene permiso para acceder a este archivo (Verdadero), entonces permítelo; Si no (Falso), deniega el acceso.\"\n*   **Estructuras de Datos:** Un SO usa colas (FIFO - First In, First Out) para administrar procesos, árboles para organizar archivos y tablas hash para buscar información rápidamente.  Estas estructuras de datos son fundamentales para la eficiencia del SO.\n\n**Ejemplo Simple Resuelto (Analogía): Preparando un Sándwich**\n\nImagina que el Sistema Operativo es la persona que prepara un sándwich (la computadora).\n\n*   **Hardware:** El pan, el queso, el jamón, el cuchillo (los componentes físicos).\n*   **Programas:** La receta del sándwich (las instrucciones que queremos seguir).\n*   **Sistema Operativo (la persona):**\n    *   **Administra los recursos:** Decide qué pan usar, cuánto queso poner, etc.\n    *   **Ejecuta las instrucciones:** Corta el pan, añade los ingredientes, etc.\n    *   **Proporciona una interfaz:** El plato donde pones el sándwich (la forma en que interactúas con el resultado final).\n\n**En resumen:**  El Sistema Operativo es como el cerebro de tu computadora, coordinando todas las partes para que puedas usarla de manera efectiva. Sin él, solo tendrías un montón de piezas que no sabrían qué hacer.\n\n¿Quieres profundizar en algún aspecto en particular? Podemos ver tipos de Sistemas Operativos, cómo se instalan, o incluso hablar de conceptos más avanzados como la gestión de procesos. ¡Dime qué te interesa!",
+                            "Funciones del Sistema Operativo": "¡De acuerdo! Volvemos a ser profesores de matemáticas, aunque enfocándonos en un tema de sistemas operativos. Como te dije antes, no hay *fórmulas* matemáticas en un sentido tradicional, pero sí hay principios lógicos y conceptos cuantitativos que subyacen a cómo funciona un SO. Vamos a explorar las funciones principales de un SO, enfocándonos en los aspectos que se relacionan con la eficiencia y la gestión de recursos.\n\n**Funciones Claves del Sistema Operativo:**\n\nEl Sistema Operativo (SO) es el maestro de ceremonias de tu computadora. Sus funciones son cruciales para que todo funcione correctamente. Pensemos en estas funciones como \"tareas\" específicas que el SO realiza constantemente.\n\n1.  **Gestión de Procesos:**\n\n    *   **Definición:** Un proceso es un programa en ejecución. El SO se encarga de crear, ejecutar, pausar, reanudar y terminar procesos.\n    *   **Relación con Matemáticas/Lógica:**\n        *   **Planificación (Scheduling):**  El SO decide qué proceso se ejecuta y cuándo.  Esto implica algoritmos que buscan optimizar el uso del procesador (CPU).  Un algoritmo común es el \"Round Robin\" (RR), donde cada proceso obtiene un tiempo limitado (quantum) de CPU.\n        *   **Prioridades:**  Los procesos pueden tener diferentes niveles de prioridad.  Esto afecta la planificación.\n\n2.  **Gestión de Memoria:**\n\n    *   **Definición:** El SO asigna y libera memoria RAM a los diferentes procesos.  Debe evitar que los procesos interfieran entre sí y optimizar el uso de la memoria.\n    *   **Relación con Matemáticas/Lógica:**\n        *   **Asignación de Memoria:**  El SO usa algoritmos como \"First Fit\", \"Best Fit\" o \"Worst Fit\" para asignar bloques de memoria a los procesos.  El objetivo es minimizar la fragmentación (espacio desperdiciado).\n        *   **Memoria Virtual:** Permite que los procesos usen más memoria de la que está físicamente disponible. El SO usa técnicas como la paginación y el intercambio (swapping) para mover datos entre la RAM y el disco duro.\n\n3.  **Gestión de Archivos:**\n\n    *   **Definición:** El SO organiza los archivos y directorios en el disco duro.  Proporciona una estructura jerárquica y mecanismos para crear, borrar, leer, escribir y modificar archivos.\n    *   **Relación con Matemáticas/Lógica:**\n        *   **Estructuras de Directorios:**  Los directorios se organizan como árboles.  Los algoritmos de búsqueda en árboles se utilizan para encontrar archivos rápidamente.\n        *   **Espacio Libre:** El SO mantiene un registro del espacio libre en el disco.  Se utilizan algoritmos para asignar espacio a los nuevos archivos y liberar espacio cuando se borran archivos.\n\n4.  **Gestión de Dispositivos de Entrada/Salida (E/S):**\n\n    *   **Definición:** El SO controla la comunicación entre la computadora y los dispositivos periféricos (teclado, ratón, impresora, etc.).\n    *   **Relación con Matemáticas/Lógica:**\n        *   **Buffers:**  Se utilizan buffers (áreas de memoria temporal) para almacenar datos que se envían a los dispositivos o que se reciben de ellos.  Esto permite que la CPU y los dispositivos funcionen a diferentes velocidades.\n        *   **Interrupciones:**  Los dispositivos pueden interrumpir a la CPU para indicar que han terminado una tarea o que necesitan atención. El SO gestiona estas interrupciones de manera eficiente.\n\n5.  **Interfaz de Usuario (UI):**\n\n    *   **Definición:** El SO proporciona una forma para que los usuarios interactúen con la computadora.  Esto puede ser a través de una interfaz gráfica (GUI) o una línea de comandos (CLI).\n    *   **Relación con Matemáticas/Lógica:** Aunque menos directa, la UI eficiente depende de la optimización de renderizado y de la rápida respuesta a eventos, lo que a menudo implica el uso eficiente de algoritmos y estructuras de datos.\n\n**¿Fórmulas Clave? (Más bien, Métricas de Desempeño):**\n\nEn lugar de fórmulas directas, nos interesan las métricas que miden la eficiencia del SO:\n\n*   **Tiempo de Respuesta:** Cuánto tarda el SO en responder a una solicitud de un usuario o un programa.  (Más bajo es mejor).\n*   **Rendimiento (Throughput):**  Cuántas tareas puede completar el SO en un período de tiempo. (Más alto es mejor).\n*   **Utilización de la CPU:**  Qué porcentaje del tiempo el procesador está realmente trabajando (no ocioso). (Más alto es mejor).\n*   **Latencia:** El retardo en las transferencias de datos.\n\n**Ejemplo Simple Resuelto (Asignación de CPU):**\n\nImagina que tienes 3 procesos: A, B y C.\n\n*   A necesita 10 unidades de tiempo de CPU.\n*   B necesita 5 unidades de tiempo de CPU.\n*   C necesita 15 unidades de tiempo de CPU.\n\nSi usamos un algoritmo de planificación \"First Come, First Served\" (FCFS), donde se ejecutan en el orden en que llegan, y A llega primero, luego B, luego C:\n\n1.  A se ejecuta durante 10 unidades de tiempo.\n2.  B se ejecuta durante 5 unidades de tiempo.\n3.  C se ejecuta durante 15 unidades de tiempo.\n\nEl tiempo promedio de espera (tiempo que los procesos esperan en la cola) sería:\n\n*   A espera 0 unidades de tiempo.\n*   B espera 10 unidades de tiempo (hasta que A termina).\n*   C espera 15 unidades de tiempo (hasta que A y B terminan).\n\nTiempo promedio de espera = (0 + 10 + 15) / 3 = 8.33 unidades de tiempo.\n\nUn algoritmo diferente (como el Shortest Job First) podría dar un tiempo promedio de espera menor.  Esta comparación ilustra cómo los algoritmos de planificación afectan el rendimiento del SO.\n\n**En Resumen:**\n\nLas funciones del Sistema Operativo son la base para que tu computadora funcione. Aunque no hay fórmulas matemáticas tradicionales, la lógica, los algoritmos y la optimización son fundamentales para que el SO sea eficiente y proporcione una buena experiencia al usuario. La gestión de procesos, memoria, archivos y dispositivos son pilares cruciales.\n\n¿Qué te gustaría explorar a continuación? Podríamos profundizar en un tipo específico de algoritmo de planificación, la gestión de memoria virtual, o cualquier otra función del SO que te interese.",
+                            "Tipos de Sistemas Operativos (Batch, Tiempo Real, Tiempo Compartido, etc.)": "¡Hola! Soy tu profesor Brainy para esta lección de Sistemas Operativos. Vamos a desglosar los diferentes tipos de sistemas operativos de una manera clara y concisa. ¡Prepárate para aprender!\n\n**¿Qué es un Sistema Operativo (SO)?**\n\nAntes de hablar de los tipos, recordemos que un Sistema Operativo es el software más importante de tu computadora. Actúa como un intermediario entre el hardware (la máquina) y las aplicaciones (programas) que usas.  Piensa en el SO como el director de una orquesta: coordina todos los instrumentos (hardware) para que suenen en armonía (ejecuten programas).\n\n**Tipos de Sistemas Operativos:**\n\nVamos a explorar los tipos más comunes, uno por uno, con ejemplos y analogías.\n\n**1. Sistemas Operativos por Lotes (Batch Systems):**\n\n*   **Teoría:**  Imagina que tienes una pila de trabajos similares (por ejemplo, procesar nóminas). En lugar de hacerlos uno por uno, los agrupas en \"lotes\" y se los das al sistema para que los ejecute secuencialmente.  No hay interacción directa del usuario durante el procesamiento.\n\n*   **Analogía:**  Piensa en una panadería.  No hornean un solo pan a la vez.  Recopilan todos los pedidos de pan similares (mismo tipo de pan, misma temperatura) y los hornean en un solo \"lote\".\n\n*   **Fórmula Clave:**  (Realmente no hay una fórmula matemática aquí, pero podemos pensar en eficiencia como el número de trabajos completados por unidad de tiempo. En un sistema Batch, la eficiencia es alta porque se minimizan los tiempos de cambio entre tareas).\n\n*   **Ejemplo:**  Un sistema que procesa automáticamente las transacciones bancarias al final del día. Recopila todas las transacciones realizadas durante el día y las procesa en un solo lote durante la noche.\n\n**2. Sistemas Operativos en Tiempo Real (Real-Time Systems):**\n\n*   **Teoría:**  Son sistemas diseñados para aplicaciones donde el tiempo de respuesta es crítico.  Necesitan garantizar que las tareas se completen dentro de un plazo específico, a menudo muy corto.  Si una tarea no se completa a tiempo, puede haber consecuencias graves.\n\n*   **Analogía:**  Piensa en el sistema de control de un avión.  Debe responder instantáneamente a los cambios en las condiciones de vuelo para mantener la estabilidad y seguridad.\n\n*   **Fórmula Clave:**  (Nuevamente, no hay una fórmula directa, pero la métrica clave es el *Deadline* o plazo límite.  El objetivo es siempre completar la tarea *antes* del Deadline).\n\n*   **Ejemplo:**  Sistemas de control de tráfico aéreo, sistemas de control industrial, sistemas de frenado automático en automóviles.\n\n**3. Sistemas Operativos de Tiempo Compartido (Time-Sharing Systems):**\n\n*   **Teoría:**  Permiten que múltiples usuarios compartan un mismo recurso (como la CPU) de manera simultánea.  La CPU divide su tiempo entre los diferentes usuarios, dando a cada uno la impresión de que tiene el control exclusivo del sistema.\n\n*   **Analogía:**  Piensa en una pizzería con un solo horno.  En lugar de esperar a que un cliente termine de hornear su pizza para dejar que el siguiente cliente use el horno, el panadero reparte el tiempo del horno entre varios clientes, permitiéndoles hornear sus pizzas casi al mismo tiempo.\n\n*   **Fórmula Clave:**  *Quantum Time (QT)*: La cantidad de tiempo que se le asigna a cada usuario.  El SO gestiona la asignación del tiempo de la CPU entre los usuarios.\n\n*   **Ejemplo:**  Los sistemas operativos que utilizamos en nuestros ordenadores personales (Windows, macOS, Linux) son ejemplos de sistemas de tiempo compartido.  También los servidores que alojan sitios web.\n\n**Otros Tipos (Menciones Rápidas):**\n\n*   **Sistemas Operativos Distribuidos:**  Ejecutan tareas en múltiples computadoras conectadas en red, como si fueran un solo sistema.\n*   **Sistemas Operativos Integrados (Embedded Systems):**  Diseñados para dispositivos específicos, como microondas, lavadoras, o sistemas de navegación de automóviles.\n\n**Ejemplo Simple Resuelto (Pensamiento Lógico):**\n\nImagina que tienes que procesar 3 trabajos:\n\n*   **Trabajo A:** Requiere 10 unidades de tiempo.\n*   **Trabajo B:** Requiere 5 unidades de tiempo.\n*   **Trabajo C:** Requiere 15 unidades de tiempo.\n\nComparemos cómo se procesarían en un sistema Batch y un sistema de Tiempo Compartido (con un Quantum Time de 5 unidades).\n\n*   **Batch:** Los trabajos se ejecutan en secuencia (por ejemplo, A, luego B, luego C). El tiempo total sería 10 + 5 + 15 = 30 unidades de tiempo. El Trabajo C tendría que esperar 15 unidades de tiempo para empezar.\n\n*   **Tiempo Compartido:** Cada trabajo recibe una porción de la CPU (5 unidades). A, B y C se ejecutan en ráfagas cortas. El tiempo total para completar los tres trabajos sería más o menos el mismo (30 unidades de tiempo, ignorando la sobrecarga del sistema), pero el usuario del Trabajo C no tendría que esperar tanto para ver progreso.\n\n**Conclusión:**\n\nCada tipo de sistema operativo tiene sus ventajas y desventajas, y se elige en función de las necesidades específicas de la aplicación. Los sistemas por lotes son buenos para tareas repetitivas y eficientes, los sistemas en tiempo real son cruciales para aplicaciones críticas, y los sistemas de tiempo compartido permiten que muchos usuarios compartan un mismo recurso.\n\n¡Espero que esta explicación te haya sido útil! ¿Tienes alguna pregunta? ¡Estoy aquí para ayudarte!"
+                        }
+                    },
+                    {
+                        "id_modulo": "mod_784b80",
+                        "titulo": "Módulo 2: Gestión de Procesos",
+                        "subtemas": [
+                            "Concepto de Proceso",
+                            "Estados de un Proceso",
+                            "Planificación de la CPU (Algoritmos FIFO, SJF, Round Robin, Prioridades)",
+                            "Comunicación entre Procesos (IPC)",
+                            "Threads (Hilos) y Multithreading"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_d8395a",
+                        "titulo": "Módulo 3: Gestión de Memoria",
+                        "subtemas": [
+                            "Organización de la Memoria",
+                            "Asignación Contigua de Memoria",
+                            "Paginación",
+                            "Segmentación",
+                            "Memoria Virtual",
+                            "Algoritmos de Reemplazo de Páginas"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_44dbb8",
+                        "titulo": "Módulo 4: Gestión de Almacenamiento",
+                        "subtemas": [
+                            "Estructura de los Discos",
+                            "Sistemas de Archivos (FAT, NTFS, ext4)",
+                            "Organización de los Archivos",
+                            "Asignación de Espacio en Disco",
+                            "Directorios",
+                            "Gestión de Espacio Libre"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_929f3f",
+                        "titulo": "Módulo 5: Entrada/Salida (E/S)",
+                        "subtemas": [
+                            "Dispositivos de E/S",
+                            "Controladores de Dispositivos",
+                            "Técnicas de E/S (Polling, Interrupciones, DMA)",
+                            "Software de E/S",
+                            "Gestión de Buffers"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    }
+                ]
+            }
+        ],
+        "profesor_vinculado": "fausto@gmail.com",
+        "solicitud_profesor_pendiente": null,
+        "notificaciones": [
+            {
+                "id": "notif_1753068679.327589",
+                "fecha": "2025-07-20T21:31:19.327589",
+                "texto": "El profesor Fausto te ha desvinculado.",
+                "leida": false
+            },
+            {
+                "id": "notif_1752873774.906197",
+                "fecha": "2025-07-18T15:22:54.906217",
+                "texto": "Tu profesor, Fausto, te ha asignado un nuevo curso sobre 'Sistemas Operativos'.",
+                "leida": true
+            },
+            {
+                "id": "notif_1752866717.693203",
+                "fecha": "2025-07-18T13:25:17.693234",
+                "texto": "Tu profesor, Fausto, te ha asignado un nuevo curso sobre 'Simulacion'.",
+                "leida": true
+            },
+            {
+                "id": "notif_1752854441.573669",
+                "fecha": "2025-07-18T10:00:41.573715",
+                "texto": "Tu profesor, Fausto, te ha asignado un nuevo curso sobre 'Taller de Investigacion 2'.",
+                "leida": true
+            },
+            {
+                "id": "notif_1752816652.157299",
+                "fecha": "2025-07-17T23:30:52.157320",
+                "texto": "Tu profesor, Fausto, te ha asignado un nuevo curso sobre 'Lenguajes y Automatas 2'.",
+                "leida": true
+            },
+            {
+                "id": "notif_1752815609.984422",
+                "fecha": "2025-07-17T23:13:29.984525",
+                "texto": "El profesor Fausto ha aceptado tu solicitud.",
+                "leida": true
+            }
+        ],
+        "historial_actividad": [
+            {
+                "fecha": "2025-07-18T10:07:08.168553",
+                "tipo": "Quiz de Práctica",
+                "tema": "Sumas",
+                "resultado": "2/3",
+                "preguntas": [
+                    {
+                        "pregunta": "¿Cuánto es 5 + 3?",
+                        "respuesta_usuario": "8",
+                        "respuesta_correcta_ia": "8",
+                        "fue_correcta": true
+                    },
+                    {
+                        "pregunta": "¿Cuánto es 2 + 4?",
+                        "respuesta_usuario": "5",
+                        "respuesta_correcta_ia": "6",
+                        "fue_correcta": false
+                    },
+                    {
+                        "pregunta": "¿Cuánto es 1 + 6?",
+                        "respuesta_usuario": "7",
+                        "respuesta_correcta_ia": "7",
+                        "fue_correcta": true
+                    }
+                ]
+            },
+            {
+                "fecha": "2025-07-17T23:37:11.876039",
+                "tipo": "Quiz de Práctica",
+                "tema": "Restas",
+                "resultado": "1/3",
+                "preguntas": [
+                    {
+                        "pregunta": "Si tienes 7 manzanas y te comes 2, ¿cuántas manzanas te quedan?",
+                        "respuesta_usuario": "9",
+                        "respuesta_correcta_ia": "5",
+                        "fue_correcta": false
+                    },
+                    {
+                        "pregunta": "Había 9 pajaritos en un árbol y 3 se fueron volando. ¿Cuántos pajaritos quedan en el árbol?",
+                        "respuesta_usuario": "6",
+                        "respuesta_correcta_ia": "6",
+                        "fue_correcta": true
+                    },
+                    {
+                        "pregunta": "Tienes 6 galletas y le das 1 a tu amigo. ¿Cuántas galletas te quedan?",
+                        "respuesta_usuario": "7",
+                        "respuesta_correcta_ia": "5",
+                        "fue_correcta": false
+                    }
+                ]
+            }
+        ],
+        "profesores_vinculados": [],
+        "solicitudes_enviadas": [],
+        "invitaciones_profesor": []
+    },
+    "fausto@gmail.com": {
+        "nombre": "Fausto",
+        "contrasena_hash": "9cdd669e7ca46156709d11a756d4e72dd0bfe12f4ef75cbaa3485574ed5014d7",
+        "rol": "profesor",
+        "perfil_completo": true,
+        "datos_perfil": {
+            "carrera": "Ingenieria en Sistemas Computacionales",
+            "nivel_academico": "Licenciatura/Ingeniería",
+            "institucion": "Instituto Tecnologico de Ciudad Madero",
+            "nivel_estudios": "Universidad"
+        },
+        "progreso": {
+            "nivel": 1,
+            "racha_correctas": 0
+        },
+        "historial_temas": [],
+        "logros": {
+            "primer_quiz": null,
+            "mente_brillante": null,
+            "racha_5": null,
+            "polimata_5": null
+        },
+        "estadisticas": {
+            "preguntas_totales": 0,
+            "aciertos_totales": 0,
+            "rendimiento_por_tema": {}
+        },
+        "cursos": [],
+        "alumnos_vinculados": [
+            "1@gmail.com"
+        ],
+        "solicitudes_pendientes": [],
+        "historial_actividad": []
+    },
+    "1@gmail.com": {
+        "nombre": "Antonio",
+        "contrasena_hash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "rol": "alumno",
+        "perfil_completo": true,
+        "datos_perfil": {
+            "fecha_nacimiento": "2002-01-01",
+            "edad_calculada": 23,
+            "nivel_estudios": "Primaria",
+            "año_cursado": "10er Semestre",
+            "objetivo_principal": "Reforzar mis conocimientos",
+            "autoevaluacion": "Necesito mucha ayuda"
+        },
+        "progreso": {
+            "nivel": 2,
+            "racha_correctas": 1
+        },
+        "historial_temas": [
+            "Algebra",
+            "Biologia",
+            "Sumas"
+        ],
+        "logros": {
+            "primer_quiz": "2025-07-18T17:51:06.677720",
+            "mente_brillante": null,
+            "racha_5": null,
+            "polimata_5": null
+        },
+        "estadisticas": {
+            "preguntas_totales": 11,
+            "aciertos_totales": 5,
+            "rendimiento_por_tema": {
+                "Sumas": {
+                    "aciertos": 3,
+                    "total": 3
+                },
+                "Algebra": {
+                    "aciertos": 1,
+                    "total": 3
+                },
+                "Módulo 1: Límites y Continuidad": {
+                    "aciertos": 1,
+                    "total": 5
+                }
+            }
+        },
+        "cursos": [
+            {
+                "id_curso": "curso_ede7caac",
+                "tema_general": "algebra",
+                "progreso_general": 0.0,
+                "calificacion_promedio": null,
+                "modulos": [
+                    {
+                        "id_modulo": "mod_4bd329",
+                        "titulo": "Módulo 1: Fundamentos del Álgebra",
+                        "subtemas": [
+                            "Variables y Expresiones Algebraicas",
+                            "Términos Semejantes y Simplificación",
+                            "El Signo de Agrupación",
+                            "Evaluación de Expresiones Algebraicas"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_221e03",
+                        "titulo": "Módulo 2: Ecuaciones Lineales",
+                        "subtemas": [
+                            "Resolución de Ecuaciones de Primer Grado",
+                            "Ecuaciones con Fracciones",
+                            "Problemas de Aplicación con Ecuaciones Lineales",
+                            "Desigualdades Lineales"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_111bc8",
+                        "titulo": "Módulo 3: Sistemas de Ecuaciones Lineales",
+                        "subtemas": [
+                            "Métodos de Sustitución",
+                            "Método de Igualación",
+                            "Método de Eliminación (Suma y Resta)",
+                            "Problemas de Aplicación con Sistemas de Ecuaciones"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_a8be06",
+                        "titulo": "Módulo 4: Potenciación y Radicación",
+                        "subtemas": [
+                            "Leyes de los Exponentes",
+                            "Notación Científica",
+                            "Radicales y Racionalización",
+                            "Operaciones con Radicales"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    }
+                ]
+            },
+            {
+                "id_curso": "curso_d0ae8539",
+                "tema_general": "fisica",
+                "progreso_general": 0.0,
+                "calificacion_promedio": null,
+                "modulos": [
+                    {
+                        "id_modulo": "mod_04c180",
+                        "titulo": "Módulo 1: Mecánica Clásica",
+                        "subtemas": [
+                            "Cinemática: Posición, velocidad y aceleración",
+                            "Dinámica: Leyes de Newton",
+                            "Trabajo y energía",
+                            "Conservación de la energía",
+                            "Momento lineal e impulsión"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_233854",
+                        "titulo": "Módulo 2: Termodinámica",
+                        "subtemas": [
+                            "Temperatura y calor",
+                            "Leyes de la termodinámica",
+                            "Procesos termodinámicos",
+                            "Entropía"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_390e50",
+                        "titulo": "Módulo 3: Electromagnetismo",
+                        "subtemas": [
+                            "Carga eléctrica y ley de Coulomb",
+                            "Campo eléctrico",
+                            "Potencial eléctrico",
+                            "Corriente eléctrica y circuitos",
+                            "Magnetismo y campos magnéticos",
+                            "Inducción electromagnética"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_3d5e79",
+                        "titulo": "Módulo 4: Ondas y Óptica",
+                        "subtemas": [
+                            "Tipos de ondas: transversales y longitudinales",
+                            "Características de las ondas: amplitud, frecuencia y longitud de onda",
+                            "Superposición e interferencia de ondas",
+                            "Difracción",
+                            "Óptica geométrica: refracción y reflexión",
+                            "Lentes y sistemas ópticos"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    }
+                ]
+            }
+        ],
+        "profesores_vinculados": [],
+        "solicitudes_enviadas": [],
+        "invitaciones_profesor": [],
+        "notificaciones": [
+            {
+                "id": "notif_1753074511.633345",
+                "fecha": "2025-07-20T23:08:31.633345",
+                "texto": "Tu profesor, Fausto, te ha asignado un nuevo curso sobre 'fisica'.",
+                "leida": false
+            },
+            {
+                "id": "notif_1753064204.310791",
+                "fecha": "2025-07-20T20:16:44.310791",
+                "texto": "El profesor Fausto ha aceptado tu solicitud de vinculación.",
+                "leida": true
+            }
+        ],
+        "historial_actividad": [
+            {
+                "fecha": "2025-07-20T19:37:18.273288",
+                "tipo": "Examen de Módulo",
+                "tema": "Módulo 1: Límites y Continuidad",
+                "resultado": "1/5",
+                "preguntas": [
+                    {
+                        "pregunta": "Intuitivamente, ¿qué significa que el límite de f(x) cuando x se acerca a 'a' es igual a 'L'?",
+                        "respuesta_usuario": "Que f(x) nunca alcanza el valor de L",
+                        "respuesta_correcta_ia": "Que f(x) se acerca a L cuando x se acerca a 'a', sin importar el valor de f(a)",
+                        "fue_correcta": false
+                    },
+                    {
+                        "pregunta": "¿Cuál es la diferencia principal entre un límite lateral por la derecha y un límite lateral por la izquierda?",
+                        "respuesta_usuario": "No hay diferencia, son lo mismo.",
+                        "respuesta_correcta_ia": "Uno considera valores de x mayores que 'a', el otro menores.",
+                        "fue_correcta": false
+                    },
+                    {
+                        "pregunta": "Al calcular un límite, si al sustituir directamente obtenemos una forma indeterminada como 0/0, ¿qué técnica algebraica podemos intentar?",
+                        "respuesta_usuario": "Dividir todo por cero",
+                        "respuesta_correcta_ia": "Factorización o racionalización",
+                        "fue_correcta": false
+                    },
+                    {
+                        "pregunta": "Si el límite de f(x) cuando x tiende a infinito es igual a infinito, ¿qué podemos decir sobre el comportamiento de la función?",
+                        "respuesta_usuario": "La función se acerca a un valor constante.",
+                        "respuesta_correcta_ia": "La función crece sin límite cuando x crece sin límite.",
+                        "fue_correcta": false
+                    },
+                    {
+                        "pregunta": "Para que una función sea continua en un punto 'a', ¿qué tres condiciones deben cumplirse? (Recordatorio: Piensa en el límite, el valor de la función y la relación entre ambos)",
+                        "respuesta_usuario": "Que el límite exista, la función esté definida en 'a' y el límite sea igual al valor de la función en 'a'.",
+                        "respuesta_correcta_ia": "Que el límite exista, la función esté definida en 'a' y el límite sea igual al valor de la función en 'a'.",
+                        "fue_correcta": true
+                    }
+                ]
+            },
+            {
+                "fecha": "2025-07-20T19:37:15.714730",
+                "tipo": "Quiz de Práctica",
+                "tema": "Módulo 1: Límites y Continuidad",
+                "resultado": "Correcta",
+                "pregunta": "Para que una función sea continua en un punto 'a', ¿qué tres condiciones deben cumplirse? (Recordatorio: Piensa en el límite, el valor de la función y la relación entre ambos)",
+                "respuesta_usuario": "Que el límite exista, la función esté definida en 'a' y el límite sea igual al valor de la función en 'a'.",
+                "respuesta_correcta_ia": "Que el límite exista, la función esté definida en 'a' y el límite sea igual al valor de la función en 'a'.",
+                "fue_correcta": true
+            },
+            {
+                "fecha": "2025-07-20T19:36:49.635642",
+                "tipo": "Quiz de Práctica",
+                "tema": "Módulo 1: Límites y Continuidad",
+                "resultado": "Incorrecta",
+                "pregunta": "Si el límite de f(x) cuando x tiende a infinito es igual a infinito, ¿qué podemos decir sobre el comportamiento de la función?",
+                "respuesta_usuario": "La función se acerca a un valor constante.",
+                "respuesta_correcta_ia": "La función crece sin límite cuando x crece sin límite.",
+                "fue_correcta": false
+            },
+            {
+                "fecha": "2025-07-20T19:36:04.999095",
+                "tipo": "Quiz de Práctica",
+                "tema": "Módulo 1: Límites y Continuidad",
+                "resultado": "Incorrecta",
+                "pregunta": "Al calcular un límite, si al sustituir directamente obtenemos una forma indeterminada como 0/0, ¿qué técnica algebraica podemos intentar?",
+                "respuesta_usuario": "Dividir todo por cero",
+                "respuesta_correcta_ia": "Factorización o racionalización",
+                "fue_correcta": false
+            },
+            {
+                "fecha": "2025-07-20T19:35:46.470197",
+                "tipo": "Quiz de Práctica",
+                "tema": "Módulo 1: Límites y Continuidad",
+                "resultado": "Incorrecta",
+                "pregunta": "¿Cuál es la diferencia principal entre un límite lateral por la derecha y un límite lateral por la izquierda?",
+                "respuesta_usuario": "No hay diferencia, son lo mismo.",
+                "respuesta_correcta_ia": "Uno considera valores de x mayores que 'a', el otro menores.",
+                "fue_correcta": false
+            },
+            {
+                "fecha": "2025-07-20T19:35:42.611152",
+                "tipo": "Quiz de Práctica",
+                "tema": "Módulo 1: Límites y Continuidad",
+                "resultado": "Incorrecta",
+                "pregunta": "Intuitivamente, ¿qué significa que el límite de f(x) cuando x se acerca a 'a' es igual a 'L'?",
+                "respuesta_usuario": "Que f(x) nunca alcanza el valor de L",
+                "respuesta_correcta_ia": "Que f(x) se acerca a L cuando x se acerca a 'a', sin importar el valor de f(a)",
+                "fue_correcta": false
+            },
+            {
+                "fecha": "2025-07-20T19:33:40.554394",
+                "tipo": "Quiz de Práctica",
+                "tema": "Algebra",
+                "resultado": "1/3",
+                "preguntas": [
+                    {
+                        "pregunta": "¿Cuál es el valor de 'x' en la ecuación 2x + 5 = 11? (Recordatorio: Para resolver, intenta aislar la variable 'x').",
+                        "respuesta_usuario": "x = 3",
+                        "respuesta_correcta_ia": "x = 3",
+                        "fue_correcta": true
+                    },
+                    {
+                        "pregunta": "Simplifica la siguiente expresión algebraica: 3a + 2b - a + 4b",
+                        "respuesta_usuario": "4a - 2b",
+                        "respuesta_correcta_ia": "2a + 6b",
+                        "fue_correcta": false
+                    },
+                    {
+                        "pregunta": "Si un rectángulo tiene un largo de 'l' y un ancho de 'w', ¿cuál es la fórmula para calcular su área?",
+                        "respuesta_usuario": "A = l + w",
+                        "respuesta_correcta_ia": "A = l * w",
+                        "fue_correcta": false
+                    }
+                ]
+            },
+            {
+                "fecha": "2025-07-20T19:33:38.014537",
+                "tipo": "Quiz de Práctica",
+                "tema": "Algebra",
+                "resultado": "Incorrecta",
+                "pregunta": "Si un rectángulo tiene un largo de 'l' y un ancho de 'w', ¿cuál es la fórmula para calcular su área?",
+                "respuesta_usuario": "A = l + w",
+                "respuesta_correcta_ia": "A = l * w",
+                "fue_correcta": false
+            },
+            {
+                "fecha": "2025-07-20T19:33:34.819394",
+                "tipo": "Quiz de Práctica",
+                "tema": "Algebra",
+                "resultado": "Incorrecta",
+                "pregunta": "Simplifica la siguiente expresión algebraica: 3a + 2b - a + 4b",
+                "respuesta_usuario": "4a - 2b",
+                "respuesta_correcta_ia": "2a + 6b",
+                "fue_correcta": false
+            },
+            {
+                "fecha": "2025-07-20T19:33:31.629405",
+                "tipo": "Quiz de Práctica",
+                "tema": "Algebra",
+                "resultado": "Correcta",
+                "pregunta": "¿Cuál es el valor de 'x' en la ecuación 2x + 5 = 11? (Recordatorio: Para resolver, intenta aislar la variable 'x').",
+                "respuesta_usuario": "x = 3",
+                "respuesta_correcta_ia": "x = 3",
+                "fue_correcta": true
+            },
+            {
+                "fecha": "2025-07-18T17:51:06.676720",
+                "tipo": "Quiz de Práctica",
+                "tema": "Sumas",
+                "resultado": "3/3",
+                "preguntas": [
+                    {
+                        "pregunta": "Recordatorio: La suma de los primeros 'n' números naturales es n(n+1)/2. Usando esta fórmula, ¿cuál es la suma de los primeros 5 números naturales?",
+                        "respuesta_usuario": "15",
+                        "respuesta_correcta_ia": "15",
+                        "fue_correcta": true
+                    },
+                    {
+                        "pregunta": "¿Cuánto es 7 + 3 - 2?",
+                        "respuesta_usuario": "8",
+                        "respuesta_correcta_ia": "8",
+                        "fue_correcta": true
+                    },
+                    {
+                        "pregunta": "Si tienes 4 manzanas y te dan 3 manzanas más, ¿cuántas manzanas tienes en total?",
+                        "respuesta_usuario": "7",
+                        "respuesta_correcta_ia": "7",
+                        "fue_correcta": true
+                    }
+                ]
+            }
+        ]
+    },
+    "2@gmail.com": {
+        "nombre": "1",
+        "contrasena_hash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "rol": "alumno",
+        "perfil_completo": false,
+        "datos_perfil": {},
+        "progreso": {
+            "nivel": 1,
+            "racha_correctas": 0
+        },
+        "historial_temas": [],
+        "logros": {
+            "primer_quiz": null,
+            "mente_brillante": null,
+            "racha_5": null,
+            "polimata_5": null
+        },
+        "estadisticas": {
+            "preguntas_totales": 0,
+            "aciertos_totales": 0,
+            "rendimiento_por_tema": {}
+        },
+        "cursos": [],
+        "historial_actividad": [],
+        "profesores_vinculados": [],
+        "solicitudes_enviadas": [],
+        "invitaciones_profesor": [],
+        "notificaciones": []
+    },
+    "3@gmail.com": {
+        "nombre": "antonio1",
+        "contrasena_hash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "rol": "alumno",
+        "perfil_completo": false,
+        "datos_perfil": {},
+        "progreso": {
+            "nivel": 1,
+            "racha_correctas": 0
+        },
+        "historial_temas": [],
+        "logros": {
+            "primer_quiz": null,
+            "mente_brillante": null,
+            "racha_5": null,
+            "polimata_5": null
+        },
+        "estadisticas": {
+            "preguntas_totales": 0,
+            "aciertos_totales": 0,
+            "rendimiento_por_tema": {}
+        },
+        "cursos": [],
+        "historial_actividad": [],
+        "profesores_vinculados": [],
+        "solicitudes_enviadas": [],
+        "invitaciones_profesor": [],
+        "notificaciones": []
+    },
+    "123@gamil.com": {
+        "nombre": "1",
+        "contrasena_hash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "rol": "alumno",
+        "perfil_completo": false,
+        "datos_perfil": {},
+        "progreso": {
+            "nivel": 1,
+            "racha_correctas": 0
+        },
+        "historial_temas": [],
+        "logros": {
+            "primer_quiz": null,
+            "mente_brillante": null,
+            "racha_5": null,
+            "polimata_5": null
+        },
+        "estadisticas": {
+            "preguntas_totales": 0,
+            "aciertos_totales": 0,
+            "rendimiento_por_tema": {}
+        },
+        "cursos": [],
+        "historial_actividad": [],
+        "profesores_vinculados": [],
+        "solicitudes_enviadas": [],
+        "invitaciones_profesor": [],
+        "notificaciones": []
+    },
+    "1234@gmail.com": {
+        "nombre": "antonio123",
+        "contrasena_hash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "rol": "alumno",
+        "perfil_completo": true,
+        "datos_perfil": {
+            "fecha_nacimiento": "2008-01-10",
+            "edad_calculada": 17,
+            "nivel_estudios": "Universidad",
+            "año_cursado": "7er Semestre",
+            "objetivo_principal": "Reforzar mis conocimientos",
+            "autoevaluacion": "Soy bueno/a pero quiero mejorar"
+        },
+        "progreso": {
+            "nivel": 3,
+            "racha_correctas": 0
+        },
+        "historial_temas": [],
+        "logros": {
+            "primer_quiz": null,
+            "mente_brillante": null,
+            "racha_5": null,
+            "polimata_5": null
+        },
+        "estadisticas": {
+            "preguntas_totales": 0,
+            "aciertos_totales": 0,
+            "rendimiento_por_tema": {}
+        },
+        "cursos": [
+            {
+                "id_curso": "curso_636d0a7a",
+                "tema_general": "algebra",
+                "progreso_general": 0.0,
+                "calificacion_promedio": null,
+                "modulos": [
+                    {
+                        "id_modulo": "mod_b3daab",
+                        "titulo": "Fundamentos del Álgebra",
+                        "subtemas": [
+                            "Variables y Expresiones",
+                            "Operaciones Básicas con Números Reales",
+                            "Propiedades de los Números Reales",
+                            "Evaluación de Expresiones Algebraicas"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {
+                            "Variables y Expresiones": "¡Hola! Vamos a entender \"Variables y Expresiones\" de manera sencilla.\n\n**¿Qué son las Variables?**\n\nImagina que tienes una caja vacía donde puedes guardar un número. Esa caja es una **variable**. En matemáticas, una variable es una letra (como x, y, o z) que representa un número desconocido o un valor que puede cambiar.\n\n**¿Qué son las Expresiones?**\n\nUna **expresión** es una combinación de números, variables y operaciones matemáticas (como suma, resta, multiplicación, división).  Es como una receta donde tienes ingredientes (números y variables) y acciones a realizar (operaciones).\n\n**Teoría Fundamental:**\n\n*   **Variables:** Representan valores desconocidos o que cambian.\n*   **Constantes:** Son números fijos, como 2, 5, -3, etc.\n*   **Operaciones:** Son los símbolos que indican qué hacer con los números y variables (+, -, ×, ÷).\n*   **Términos:** Son las partes de una expresión separadas por los signos + o -.\n\n**Fórmula Clave (Realmente no hay una fórmula única, pero entender esto es importante):**\n\nUna expresión general podría verse así: `ax + b`, donde:\n\n*   `x` es la variable.\n*   `a` es el coeficiente (el número que multiplica a la variable).\n*   `b` es una constante.\n\n**Ejemplo Simple Resuelto:**\n\n**Problema:** Evalúa la expresión `2x + 3` si `x = 4`.\n\n**Solución:**\n\n1.  **Reemplaza la variable:** Sustituimos `x` por el valor que nos dan, que es 4.  Así que la expresión se convierte en: `2 * 4 + 3`\n2.  **Realiza las operaciones:**\n    *   Primero, multiplicamos: `2 * 4 = 8`\n    *   Luego, sumamos: `8 + 3 = 11`\n\n**Respuesta:**  El valor de la expresión `2x + 3` cuando `x = 4` es `11`.\n\n**En resumen:**\n\nLas variables son como contenedores de números, y las expresiones son combinaciones de esos contenedores, números y operaciones.  Al darle un valor a la variable, podemos evaluar la expresión para obtener un resultado numérico. ¡Es como seguir una receta para obtener un plato delicioso!",
+                            "Operaciones Básicas con Números Reales": "¡Hola de nuevo! Vamos a explorar las \"Operaciones Básicas con Números Reales\".\n\n**¿Qué son los Números Reales?**\n\nPrimero, recordemos que los números reales son todos los números que puedes encontrar en la recta numérica.  Esto incluye:\n\n*   Números positivos y negativos.\n*   Números enteros (como -3, 0, 5).\n*   Fracciones (como 1/2, -3/4).\n*   Decimales (como 3.14, -0.75).\n*   Números irracionales (como π y √2).\n\n**¿Cuáles son las Operaciones Básicas?**\n\nLas operaciones básicas son las acciones fundamentales que podemos realizar con estos números:\n\n1.  **Suma (+):** Combinar dos o más números para obtener un total.\n2.  **Resta (-):** Encontrar la diferencia entre dos números.\n3.  **Multiplicación (× o \\*):** Sumar un número a sí mismo un cierto número de veces.\n4.  **División (÷ o /):** Repartir un número en partes iguales.\n\n**Teoría Fundamental:**\n\n*   **Propiedad Conmutativa:** El orden de los números no importa en la suma y la multiplicación.  (a + b = b + a) y (a × b = b × a).\n*   **Propiedad Asociativa:**  Cuando sumas o multiplicas tres o más números, el orden en que los agrupes no importa.  (a + (b + c) = (a + b) + c) y (a × (b × c) = (a × b) × c).\n*   **Propiedad Distributiva:** Multiplicar un número por una suma es lo mismo que multiplicar el número por cada término de la suma y luego sumar los resultados. a × (b + c) = (a × b) + (a × c).\n*   **Elemento Neutro:**\n    *   Para la suma: el 0 (a + 0 = a).\n    *   Para la multiplicación: el 1 (a × 1 = a).\n*   **Inverso Aditivo (Opuesto):** Para cada número 'a', existe un número '-a' tal que a + (-a) = 0.\n*   **Inverso Multiplicativo (Recíproco):** Para cada número 'a' (excepto 0), existe un número '1/a' tal que a × (1/a) = 1.\n\n**Fórmulas Clave (Más bien reglas):**\n\n*   **Signos iguales al sumar/restar:** Si los números tienen el mismo signo, se suman los valores absolutos y se mantiene el signo.  Ejemplo: (-3) + (-2) = -5\n*   **Signos diferentes al sumar/restar:** Se resta el valor absoluto menor al mayor y se pone el signo del número con mayor valor absoluto.  Ejemplo: 5 + (-3) = 2\n*   **Multiplicación/División:**\n    *   Signos iguales: Resultado positivo.\n    *   Signos diferentes: Resultado negativo.\n\n**Ejemplo Simple Resuelto:**\n\n**Problema:** Resuelve:  5 + (-3) × 2 - 8 ÷ 4\n\n**Solución:**  Debemos seguir el orden de las operaciones (PEMDAS/BODMAS): Paréntesis, Exponentes, Multiplicación y División (de izquierda a derecha), Suma y Resta (de izquierda a derecha).\n\n1.  **Multiplicación:** (-3) × 2 = -6.  La expresión ahora es: 5 + (-6) - 8 ÷ 4\n2.  **División:** 8 ÷ 4 = 2. La expresión ahora es: 5 + (-6) - 2\n3.  **Suma:** 5 + (-6) = -1.  La expresión ahora es: -1 - 2\n4.  **Resta:** -1 - 2 = -3\n\n**Respuesta:** El resultado es -3.\n\n¡Espero que esto te ayude a entender mejor las operaciones básicas con números reales! Recuerda, la práctica hace al maestro.",
+                            "Propiedades de los Números Reales": "¡Genial! Vamos a desglosar las \"Propiedades de los Números Reales\" para que las entiendas fácilmente.\n\n**¿Qué son las Propiedades de los Números Reales?**\n\nLas propiedades de los números reales son reglas que describen cómo interactúan los números reales entre sí cuando realizamos operaciones básicas (suma, resta, multiplicación y división). Estas propiedades nos ayudan a simplificar y resolver problemas matemáticos.\n\n**Teoría Fundamental (y las propiedades clave):**\n\n1.  **Propiedad Conmutativa:**\n    *   *Suma:* El orden en que sumas los números no cambia el resultado.\n        *   Fórmula: a + b = b + a\n        *   Ejemplo: 3 + 5 = 5 + 3 (ambos dan 8)\n    *   *Multiplicación:* El orden en que multiplicas los números no cambia el resultado.\n        *   Fórmula: a × b = b × a\n        *   Ejemplo: 2 × 4 = 4 × 2 (ambos dan 8)\n\n2.  **Propiedad Asociativa:**\n    *   *Suma:* Cuando sumas tres o más números, la forma en que los agrupas no cambia el resultado.\n        *   Fórmula: (a + b) + c = a + (b + c)\n        *   Ejemplo: (1 + 2) + 3 = 1 + (2 + 3) (ambos dan 6)\n    *   *Multiplicación:* Cuando multiplicas tres o más números, la forma en que los agrupas no cambia el resultado.\n        *   Fórmula: (a × b) × c = a × (b × c)\n        *   Ejemplo: (2 × 3) × 4 = 2 × (3 × 4) (ambos dan 24)\n\n3.  **Propiedad Distributiva:** Multiplicar un número por una suma es lo mismo que multiplicar el número por cada término de la suma y luego sumar los resultados.\n    *   Fórmula: a × (b + c) = (a × b) + (a × c)\n    *   Ejemplo: 2 × (3 + 4) = (2 × 3) + (2 × 4) (ambos dan 14)\n\n4.  **Propiedad de Identidad (o Elemento Neutro):**\n    *   *Suma:* Existe un número (0) que, cuando se suma a cualquier número, deja ese número sin cambios.\n        *   Fórmula: a + 0 = a\n        *   Ejemplo: 7 + 0 = 7\n    *   *Multiplicación:* Existe un número (1) que, cuando se multiplica por cualquier número, deja ese número sin cambios.\n        *   Fórmula: a × 1 = a\n        *   Ejemplo: 9 × 1 = 9\n\n5.  **Propiedad del Inverso:**\n    *   *Suma (Inverso Aditivo):* Para cada número 'a', existe un número '-a' (su opuesto) tal que su suma es cero.\n        *   Fórmula: a + (-a) = 0\n        *   Ejemplo: 6 + (-6) = 0\n    *   *Multiplicación (Inverso Multiplicativo o Recíproco):* Para cada número 'a' (excepto 0), existe un número '1/a' tal que su producto es 1.\n        *   Fórmula: a × (1/a) = 1\n        *   Ejemplo: 4 × (1/4) = 1\n\n**Ejemplo Simple Resuelto:**\n\n**Problema:** Simplifica la expresión: 3 × (x + 2) + 2x\n\n**Solución:**\n\n1.  **Usamos la Propiedad Distributiva:** Multiplicamos el 3 por cada término dentro del paréntesis: 3 × x + 3 × 2 = 3x + 6\n2.  **Reemplazamos en la expresión original:** Ahora tenemos: 3x + 6 + 2x\n3.  **Usamos la Propiedad Conmutativa (para agrupar términos semejantes):** Podemos reordenar la expresión como: 3x + 2x + 6\n4.  **Combinamos términos semejantes:** (3x + 2x) + 6 = 5x + 6\n\n**Respuesta:** La expresión simplificada es 5x + 6.\n\n¡En resumen, estas propiedades son como las reglas del juego de las matemáticas! Conocerlas te permite manipular y simplificar expresiones de manera más eficiente. ¡Espero que esta explicación te sea útil!",
+                            "Evaluación de Expresiones Algebraicas": "¡Hola! Vamos a entender \"Evaluación de Expresiones Algebraicas\" de forma sencilla.\n\n**¿Qué es una Expresión Algebraica?**\n\nYa hemos hablado de esto antes, pero recordemos: Una expresión algebraica es una combinación de números, variables (letras que representan números) y operaciones matemáticas (+, -, ×, ÷, etc.).  Por ejemplo: `3x + 2y - 5`.\n\n**¿Qué significa \"Evaluar\" una Expresión Algebraica?**\n\nEvaluar una expresión algebraica significa encontrar su valor numérico.  Para hacer esto, necesitamos que nos den el valor de cada variable en la expresión.  Luego, reemplazamos cada variable con su valor dado y realizamos las operaciones para obtener un número como resultado.\n\n**Teoría Fundamental:**\n\n1.  **Sustitución:** Reemplazar cada variable en la expresión con su valor numérico correspondiente.\n2.  **Orden de las Operaciones (PEMDAS/BODMAS):** Seguir el orden correcto para realizar las operaciones:\n    *   **P**aréntesis (o **B**ráquets)\n    *   **E**xponentes (o **O**rdenes)\n    *   **M**ultiplicación y **D**ivisión (de izquierda a derecha)\n    *   **A**dición y **S**ustracción (de izquierda a derecha)\n\n**Fórmula Clave (Más que una fórmula, es un proceso):**\n\nNo hay una fórmula mágica, pero este es el proceso:\n\n1.  **Identifica las variables** en la expresión.\n2.  **Recibe los valores** para cada variable.\n3.  **Sustituye** cada variable por su valor.\n4.  **Sigue el orden de las operaciones (PEMDAS/BODMAS)** para simplificar la expresión y obtener un valor numérico.\n\n**Ejemplo Simple Resuelto:**\n\n**Problema:** Evalúa la expresión `2x^2 + 3y - z` cuando `x = 2`, `y = -1` y `z = 5`.\n\n**Solución:**\n\n1.  **Sustitución:** Reemplazamos las variables con sus valores:\n    `2 * (2)^2 + 3 * (-1) - 5`\n\n2.  **Orden de las Operaciones:**\n\n    *   **Exponente:** Calculamos el exponente primero: `2^2 = 4`. La expresión se convierte en:  `2 * 4 + 3 * (-1) - 5`\n    *   **Multiplicación:** Realizamos las multiplicaciones:\n        *   `2 * 4 = 8`\n        *   `3 * (-1) = -3`\n        La expresión se convierte en: `8 + (-3) - 5`\n    *   **Adición y Sustracción:** Realizamos la suma y resta de izquierda a derecha:\n        *   `8 + (-3) = 5`\n        *   `5 - 5 = 0`\n\n**Respuesta:** El valor de la expresión `2x^2 + 3y - z` cuando `x = 2`, `y = -1` y `z = 5` es `0`.\n\n**En resumen:** Evaluar una expresión algebraica es como rellenar los espacios en blanco (las variables) con los números correctos y luego seguir las reglas (PEMDAS/BODMAS) para obtener el resultado final. ¡Es como seguir una receta para hornear un pastel, solo que en lugar de ingredientes tienes números y variables!"
+                        }
+                    },
+                    {
+                        "id_modulo": "mod_d1af8b",
+                        "titulo": "Ecuaciones Lineales y Desigualdades",
+                        "subtemas": [
+                            "Resolución de Ecuaciones Lineales",
+                            "Ecuaciones con Variables en Ambos Lados",
+                            "Desigualdades Lineales",
+                            "Resolución de Desigualdades Compuestas",
+                            "Aplicaciones de Ecuaciones y Desigualdades Lineales"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_bc264e",
+                        "titulo": "Sistemas de Ecuaciones Lineales",
+                        "subtemas": [
+                            "Resolución Gráfica de Sistemas de Ecuaciones",
+                            "Método de Sustitución",
+                            "Método de Eliminación",
+                            "Aplicaciones de Sistemas de Ecuaciones Lineales"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_ad4920",
+                        "titulo": "Polinomios y Factorización",
+                        "subtemas": [
+                            "Operaciones con Polinomios",
+                            "Factorización de Trinomios",
+                            "Diferencia de Cuadrados y Suma/Diferencia de Cubos",
+                            "Factorización por Agrupación"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_e0ac2a",
+                        "titulo": "Expresiones Racionales",
+                        "subtemas": [
+                            "Simplificación de Expresiones Racionales",
+                            "Operaciones con Expresiones Racionales",
+                            "Resolución de Ecuaciones Racionales",
+                            "Aplicaciones de Expresiones Racionales"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    }
+                ]
+            }
+        ],
+        "historial_actividad": [],
+        "profesores_vinculados": [],
+        "solicitudes_enviadas": [],
+        "invitaciones_profesor": [],
+        "notificaciones": []
+    },
+    "alumno1@gmail.com": {
+        "nombre": "alumno1",
+        "contrasena_hash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "rol": "alumno",
+        "perfil_completo": true,
+        "datos_perfil": {
+            "fecha_nacimiento": "1990-04-08",
+            "edad_calculada": 35,
+            "nivel_estudios": "Universidad",
+            "año_cursado": "10er Semestre",
+            "objetivo_principal": "Reforzar mis conocimientos",
+            "autoevaluacion": "Necesito mucha ayuda"
+        },
+        "progreso": {
+            "nivel": 1,
+            "racha_correctas": 0
+        },
+        "historial_temas": [
+            "Psicologia"
+        ],
+        "logros": {
+            "primer_quiz": "2025-07-21T00:16:08.595589",
+            "mente_brillante": null,
+            "racha_5": null,
+            "polimata_5": null
+        },
+        "estadisticas": {
+            "preguntas_totales": 8,
+            "aciertos_totales": 2,
+            "rendimiento_por_tema": {
+                "Psicologia": {
+                    "aciertos": 2,
+                    "total": 3
+                },
+                "Módulo 1: Introducción a la Ecología": {
+                    "aciertos": 0,
+                    "total": 5
+                }
+            }
+        },
+        "cursos": [
+            {
+                "id_curso": "curso_aebc23ea",
+                "tema_general": "ecologia",
+                "progreso_general": 0.2,
+                "calificacion_promedio": 0.0,
+                "modulos": [
+                    {
+                        "id_modulo": "mod_acba0a",
+                        "titulo": "Módulo 1: Introducción a la Ecología",
+                        "subtemas": [
+                            "Definición de ecología y su importancia",
+                            "Niveles de organización ecológica: individuo, población, comunidad, ecosistema, bioma, biosfera",
+                            "Factores bióticos y abióticos",
+                            "Relaciones intraespecíficas e interespecíficas"
+                        ],
+                        "completado": true,
+                        "calificacion_examen": 0.0,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_9c4587",
+                        "titulo": "Módulo 2: Ecosistemas y sus Componentes",
+                        "subtemas": [
+                            "Tipos de ecosistemas: terrestres y acuáticos",
+                            "Productores, consumidores y descomponedores",
+                            "Cadenas y redes tróficas",
+                            "Flujo de energía en los ecosistemas",
+                            "Ciclos biogeoquímicos (carbono, nitrógeno, agua)"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_5284f1",
+                        "titulo": "Módulo 3: Poblaciones y Comunidades",
+                        "subtemas": [
+                            "Dinámica de poblaciones: crecimiento, densidad, distribución",
+                            "Interacciones entre especies: competencia, depredación, mutualismo, comensalismo, parasitismo",
+                            "Sucesión ecológica: primaria y secundaria",
+                            "Biodiversidad: definición, importancia y amenazas"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_509a7e",
+                        "titulo": "Módulo 4: Impacto Humano en el Medio Ambiente",
+                        "subtemas": [
+                            "Contaminación del aire, agua y suelo",
+                            "Deforestación y pérdida de hábitats",
+                            "Cambio climático: causas, consecuencias y mitigación",
+                            "Sobreexplotación de recursos naturales",
+                            "Especies invasoras"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_f6badd",
+                        "titulo": "Módulo 5: Conservación y Sostenibilidad",
+                        "subtemas": [
+                            "Estrategias de conservación: áreas protegidas, reforestación, restauración ecológica",
+                            "Desarrollo sostenible: definición y principios",
+                            "Economía circular",
+                            "Legislación ambiental",
+                            "Acciones individuales para la sostenibilidad"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    }
+                ]
+            },
+            {
+                "id_curso": "curso_2bf3b704",
+                "tema_general": "geologia",
+                "progreso_general": 0.0,
+                "calificacion_promedio": null,
+                "modulos": [
+                    {
+                        "id_modulo": "mod_c2b29a",
+                        "titulo": "Módulo 1: Introducción a la Geología",
+                        "subtemas": [
+                            "¿Qué es la Geología?",
+                            "Ramas de la Geología",
+                            "Escala del tiempo geológico",
+                            "Principios fundamentales de la Geología"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_b51d6a",
+                        "titulo": "Módulo 2: Mineralogía y Petrología",
+                        "subtemas": [
+                            "Definición y propiedades de los minerales",
+                            "Clasificación de los minerales",
+                            "Rocas ígneas: formación y clasificación",
+                            "Rocas sedimentarias: formación y clasificación",
+                            "Rocas metamórficas: formación y clasificación"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_c68460",
+                        "titulo": "Módulo 3: Geología Estructural",
+                        "subtemas": [
+                            "Deformación de las rocas",
+                            "Fallamiento: tipos de fallas",
+                            "Plegamiento: tipos de pliegues",
+                            "Diaclasas y foliación"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_e9c0a9",
+                        "titulo": "Módulo 4: Geomorfología",
+                        "subtemas": [
+                            "Procesos erosivos",
+                            "Modelado fluvial",
+                            "Modelado glaciar",
+                            "Modelado eólico",
+                            "Modelado costero"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    }
+                ]
+            },
+            {
+                "id_curso": "curso_e1eed433",
+                "tema_general": "leyes",
+                "progreso_general": 0.0,
+                "calificacion_promedio": null,
+                "modulos": [
+                    {
+                        "id_modulo": "mod_ba6cbc",
+                        "titulo": "Módulo 1: Introducción al Derecho",
+                        "subtemas": [
+                            "Definición y fuentes del Derecho",
+                            "Ramas del Derecho: Público y Privado",
+                            "Conceptos fundamentales: norma jurídica, hecho jurídico, acto jurídico",
+                            "La interpretación de las leyes"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_39b012",
+                        "titulo": "Módulo 2: Derecho Constitucional",
+                        "subtemas": [
+                            "Teoría de la Constitución",
+                            "Derechos fundamentales: civiles, políticos, sociales y económicos",
+                            "Organización del Estado: división de poderes",
+                            "Control de constitucionalidad"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_d343fb",
+                        "titulo": "Módulo 3: Derecho Civil",
+                        "subtemas": [
+                            "Derecho de las personas: capacidad jurídica, domicilio",
+                            "Derecho de las obligaciones: contratos, responsabilidad civil",
+                            "Derechos reales: propiedad, posesión",
+                            "Derecho de familia: matrimonio, filiación"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_17f70f",
+                        "titulo": "Módulo 4: Derecho Penal",
+                        "subtemas": [
+                            "Teoría del delito: elementos del delito, causas de justificación",
+                            "Clasificación de los delitos: delitos contra la vida, la propiedad, la libertad",
+                            "Penas y medidas de seguridad",
+                            "Derecho procesal penal"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    }
+                ]
+            },
+            {
+                "id_curso": "curso_a9de2d1e",
+                "tema_general": "fisica",
+                "creador_email": "profesor1@gmail.com",
+                "miembros": [
+                    {
+                        "email": "profesor1@gmail.com",
+                        "rol": "profesor"
+                    },
+                    {
+                        "email": "alumno1@gmail.com",
+                        "rol": "alumno"
+                    }
+                ],
+                "modulos": [
+                    {
+                        "id_modulo": "mod_f81f91",
+                        "titulo": "Módulo 1: Mecánica Clásica",
+                        "subtemas": [
+                            "Cinemática: Desplazamiento, Velocidad y Aceleración",
+                            "Dinámica: Leyes de Newton",
+                            "Trabajo, Energía y Potencia",
+                            "Conservación de la Energía",
+                            "Impulso y Cantidad de Movimiento"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {
+                            "Cinemática: Desplazamiento, Velocidad y Aceleración": "¡Claro! Vamos a entender la cinemática, que básicamente describe cómo se mueven las cosas sin preocuparnos por qué se mueven. Nos enfocaremos en desplazamiento, velocidad y aceleración.\n\n**¿Qué es el Desplazamiento?**\n\nImagina que caminas de tu casa a la tienda. El desplazamiento es la distancia *directa* y la dirección entre tu casa y la tienda, ¡no importa si diste un rodeo! Es un vector, lo que significa que tiene magnitud (cuánto te moviste) y dirección (hacia dónde).\n\n*   **Fórmula clave:**  Δx = x<sub>f</sub> - x<sub>i</sub>  (donde Δx es el desplazamiento, x<sub>f</sub> es la posición final y x<sub>i</sub> es la posición inicial)\n\n**¿Qué es la Velocidad?**\n\nLa velocidad nos dice qué tan rápido te estás moviendo y en qué dirección. Es el cambio de desplazamiento en un intervalo de tiempo.\n\n*   **Velocidad media:** Es el desplazamiento total dividido por el tiempo total transcurrido.\n    *   **Fórmula clave:** v<sub>media</sub> = Δx / Δt  (donde Δt es el cambio en el tiempo)\n*   **Velocidad instantánea:** Es la velocidad en un momento específico. Piensa en la velocidad que marca el velocímetro de un coche.\n\n**¿Qué es la Aceleración?**\n\nLa aceleración nos dice qué tan rápido está cambiando tu velocidad. Si estás acelerando en un coche, tu velocidad está aumentando. Si estás frenando, tu velocidad está disminuyendo (esto también es aceleración, ¡pero en la dirección opuesta!).\n\n*   **Aceleración media:** Es el cambio de velocidad dividido por el tiempo transcurrido.\n    *   **Fórmula clave:** a<sub>media</sub> = Δv / Δt  (donde Δv es el cambio en la velocidad)\n*   **Aceleración instantánea:** Es la aceleración en un momento específico.\n\n**Ejemplo Resuelto:**\n\nImagina que un coche se mueve en línea recta.\n\n*   En el tiempo t = 0 segundos, está en la posición x = 5 metros.\n*   En el tiempo t = 2 segundos, está en la posición x = 15 metros.\n\n1.  **Desplazamiento:** Δx = x<sub>f</sub> - x<sub>i</sub> = 15 m - 5 m = 10 metros. El coche se desplazó 10 metros.\n2.  **Velocidad Media:** v<sub>media</sub> = Δx / Δt = 10 m / 2 s = 5 m/s. La velocidad media del coche es de 5 metros por segundo.  Asumimos que la velocidad es constante.\n\n¡Eso es todo por ahora! Recuerda que estos conceptos son fundamentales para entender cómo se mueven las cosas. ¿Te gustaría practicar con algunos ejercicios? Puedes usar el botón '🧠 Practicar' en el menú para generar un quiz sobre cinemática. ¡Es una forma genial de consolidar lo que aprendiste!",
+                            "Impulso y Cantidad de Movimiento": "¡Hola! ¡Claro que sí! Vamos a desglosar \"Impulso y Cantidad de Movimiento\" para que te quede súper claro.\n\n**¿Qué es la Cantidad de Movimiento?**\n\nImagina que tienes una pelota de tenis y un camión. Ambos se están moviendo, pero el camión es mucho más difícil de detener, ¿verdad? Eso es porque tiene mucha más \"cantidad de movimiento\".\n\nLa cantidad de movimiento es una medida de cuánto \"ímpetu\" tiene un objeto en movimiento. Depende de dos cosas:\n\n*   **La masa del objeto (cuánto \"pesa\")**\n*   **Su velocidad (qué tan rápido se mueve)**\n\n**Fórmula clave de la Cantidad de Movimiento:**\n\nCantidad de Movimiento (p) = masa (m) * velocidad (v)\n\n*   p = m * v\n\n**¿Qué es el Impulso?**\n\nEl impulso es como un \"empujón\" que le das a un objeto.  Es la fuerza que aplicas durante un cierto tiempo y que cambia la cantidad de movimiento de ese objeto.\n\n**Fórmula clave del Impulso:**\n\nImpulso (J) = Fuerza (F) * Tiempo (Δt)\n\n*   J = F * Δt\n\n**Relación entre Impulso y Cantidad de Movimiento:**\n\nAquí viene lo interesante: El Impulso es IGUAL al cambio en la Cantidad de Movimiento. En otras palabras, el \"empujón\" (impulso) que le das a un objeto es lo que hace que cambie su \"ímpetu\" (cantidad de movimiento).\n\nMatemáticamente:\n\nJ = Δp  (Impulso = Cambio en la Cantidad de Movimiento)\n\nO, desglosando más:\n\nF * Δt = m * Δv  (Fuerza * Tiempo = Masa * Cambio en la Velocidad)\n\n**Ejemplo Simple Resuelto:**\n\nImagina que tienes una pelota de béisbol de 0.15 kg que se mueve hacia ti a 20 m/s.  La golpeas con un bate y la pelota sale disparada en dirección opuesta a 30 m/s.  Si el bate estuvo en contacto con la pelota durante 0.001 segundos, ¿cuál fue la fuerza promedio que aplicaste con el bate?\n\n1.  **Calcula el cambio en la velocidad (Δv):**\n    *   La velocidad final es +30 m/s (la consideramos positiva porque va en dirección opuesta a la inicial).\n    *   La velocidad inicial es -20 m/s (negativa porque es en la dirección inicial).\n    *   Δv = 30 m/s - (-20 m/s) = 50 m/s\n\n2.  **Aplica la fórmula: F * Δt = m * Δv**\n    *   F * 0.001 s = 0.15 kg * 50 m/s\n\n3.  **Despeja la Fuerza (F):**\n    *   F = (0.15 kg * 50 m/s) / 0.001 s\n    *   F = 7500 N\n\n**Respuesta:** La fuerza promedio que aplicaste con el bate fue de 7500 Newtons.\n\n**En resumen:**\n\n*   La cantidad de movimiento es una medida del \"ímpetu\" de un objeto en movimiento.\n*   El impulso es un \"empujón\" que cambia la cantidad de movimiento de un objeto.\n*   El impulso es igual al cambio en la cantidad de movimiento.\n\n¡Espero que esto te haya ayudado! ¿Hay algo más en lo que te pueda ayudar sobre este tema?  Quizás te interese practicar con ejercicios.  En ese caso, puedes hacer clic en el botón '🧠 Practicar' en el menú de la izquierda para generar un quiz sobre impulso y cantidad de movimiento. ¡Avísame si tienes alguna otra pregunta!"
+                        }
+                    },
+                    {
+                        "id_modulo": "mod_6dd97a",
+                        "titulo": "Módulo 2: Termodinámica",
+                        "subtemas": [
+                            "Conceptos Básicos: Temperatura y Calor",
+                            "Primera Ley de la Termodinámica",
+                            "Segunda Ley de la Termodinámica y Entropía",
+                            "Procesos Termodinámicos: Isotérmico, Adiabático, Isobárico e Isocórico"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_947b7a",
+                        "titulo": "Módulo 3: Electromagnetismo",
+                        "subtemas": [
+                            "Electrostática: Carga Eléctrica y Ley de Coulomb",
+                            "Campo Eléctrico y Potencial Eléctrico",
+                            "Corriente Eléctrica y Circuitos",
+                            "Magnetismo: Campos Magnéticos y Fuerza Magnética",
+                            "Inducción Electromagnética"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_5e8c01",
+                        "titulo": "Módulo 4: Ondas y Óptica",
+                        "subtemas": [
+                            "Movimiento Ondulatorio: Tipos de Ondas",
+                            "Superposición e Interferencia de Ondas",
+                            "Ondas Sonoras: Características y Fenómenos",
+                            "Naturaleza de la Luz: Reflexión y Refracción",
+                            "Óptica Geométrica: Lentes y Espejos"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    }
+                ],
+                "progreso_general": 0.0,
+                "calificacion_promedio": null
+            },
+            {
+                "id_curso": "curso_02603bcf",
+                "tema_general": "investigacion de operaciones",
+                "progreso_general": 0.0,
+                "calificacion_promedio": null,
+                "modulos": [
+                    {
+                        "id_modulo": "mod_4fb2cf",
+                        "titulo": "Programación Lineal",
+                        "subtemas": [
+                            "Formulación de modelos de Programación Lineal",
+                            "Método Gráfico",
+                            "Método Simplex",
+                            "Análisis de Sensibilidad",
+                            "Dualidad"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_00be22",
+                        "titulo": "Programación Entera",
+                        "subtemas": [
+                            "Modelos de Programación Entera",
+                            "Método de Ramificación y Acotación (Branch and Bound)",
+                            "Algoritmos Heurísticos para Programación Entera"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_d0176d",
+                        "titulo": "Teoría de Colas",
+                        "subtemas": [
+                            "Conceptos básicos de Teoría de Colas",
+                            "Modelos de Colas M/M/1",
+                            "Modelos de Colas M/M/c",
+                            "Aplicaciones de la Teoría de Colas"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    },
+                    {
+                        "id_modulo": "mod_e2c43d",
+                        "titulo": "Gestión de Inventarios",
+                        "subtemas": [
+                            "Modelos de Inventario Determinísticos",
+                            "Modelos de Inventario Probabilísticos",
+                            "Análisis ABC"
+                        ],
+                        "completado": false,
+                        "calificacion_examen": null,
+                        "teoria_generada": {}
+                    }
+                ]
+            }
+        ],
+        "historial_actividad": [
+            {
+                "fecha": "2025-07-21T00:43:45.293891",
+                "tipo": "Examen de Módulo",
+                "tema": "Módulo 1: Introducción a la Ecología",
+                "resultado": "0/5",
+                "preguntas": [
+                    {
+                        "pregunta": "¿Cuál es la definición más precisa de ecología?",
+                        "respuesta_usuario": "El estudio de los seres vivos.",
+                        "respuesta_correcta_ia": "None",
+                        "fue_correcta": false
+                    },
+                    {
+                        "pregunta": "En los niveles de organización ecológica, ¿qué término describe un grupo de individuos de la misma especie que viven en la misma área?",
+                        "respuesta_usuario": "Población",
+                        "respuesta_correcta_ia": "None",
+                        "fue_correcta": false
+                    },
+                    {
+                        "pregunta": "¿Cuál de los siguientes es un ejemplo de un factor abiótico?",
+                        "respuesta_usuario": "Un parásito",
+                        "respuesta_correcta_ia": "None",
+                        "fue_correcta": false
+                    },
+                    {
+                        "pregunta": "La relación entre un león y una cebra, donde el león se beneficia y la cebra es perjudicada, es un ejemplo de:",
+                        "respuesta_usuario": "Depredación",
+                        "respuesta_correcta_ia": "None",
+                        "fue_correcta": false
+                    },
+                    {
+                        "pregunta": "¿Cuál de los siguientes niveles de organización ecológica es el más inclusivo, abarcando todos los ecosistemas de la Tierra?",
+                        "respuesta_usuario": "Comunidad",
+                        "respuesta_correcta_ia": "None",
+                        "fue_correcta": false
+                    }
+                ]
+            },
+            {
+                "fecha": "2025-07-21T00:43:42.739092",
+                "tipo": "Quiz de Práctica",
+                "tema": "Módulo 1: Introducción a la Ecología",
+                "resultado": "Incorrecta",
+                "pregunta": "¿Cuál de los siguientes niveles de organización ecológica es el más inclusivo, abarcando todos los ecosistemas de la Tierra?",
+                "respuesta_usuario": "Comunidad",
+                "respuesta_correcta_ia": "None",
+                "fue_correcta": false
+            },
+            {
+                "fecha": "2025-07-21T00:43:39.003109",
+                "tipo": "Quiz de Práctica",
+                "tema": "Módulo 1: Introducción a la Ecología",
+                "resultado": "Incorrecta",
+                "pregunta": "La relación entre un león y una cebra, donde el león se beneficia y la cebra es perjudicada, es un ejemplo de:",
+                "respuesta_usuario": "Depredación",
+                "respuesta_correcta_ia": "None",
+                "fue_correcta": false
+            },
+            {
+                "fecha": "2025-07-21T00:43:36.070102",
+                "tipo": "Quiz de Práctica",
+                "tema": "Módulo 1: Introducción a la Ecología",
+                "resultado": "Incorrecta",
+                "pregunta": "¿Cuál de los siguientes es un ejemplo de un factor abiótico?",
+                "respuesta_usuario": "Un parásito",
+                "respuesta_correcta_ia": "None",
+                "fue_correcta": false
+            },
+            {
+                "fecha": "2025-07-21T00:43:33.023077",
+                "tipo": "Quiz de Práctica",
+                "tema": "Módulo 1: Introducción a la Ecología",
+                "resultado": "Incorrecta",
+                "pregunta": "En los niveles de organización ecológica, ¿qué término describe un grupo de individuos de la misma especie que viven en la misma área?",
+                "respuesta_usuario": "Población",
+                "respuesta_correcta_ia": "None",
+                "fue_correcta": false
+            },
+            {
+                "fecha": "2025-07-21T00:43:26.013930",
+                "tipo": "Quiz de Práctica",
+                "tema": "Módulo 1: Introducción a la Ecología",
+                "resultado": "Incorrecta",
+                "pregunta": "¿Cuál es la definición más precisa de ecología?",
+                "respuesta_usuario": "El estudio de los seres vivos.",
+                "respuesta_correcta_ia": "None",
+                "fue_correcta": false
+            },
+            {
+                "fecha": "2025-07-21T00:16:08.595589",
+                "tipo": "Quiz de Práctica",
+                "tema": "Psicologia",
+                "resultado": "2/3",
+                "preguntas": [
+                    {
+                        "pregunta": "¿Cuál de las siguientes opciones describe mejor el objeto de estudio de la psicología?",
+                        "respuesta_usuario": "El estudio del comportamiento y los procesos mentales.",
+                        "respuesta_correcta_ia": "El estudio del comportamiento y los procesos mentales.",
+                        "fue_correcta": true
+                    },
+                    {
+                        "pregunta": "¿Qué es el condicionamiento clásico, un concepto fundamental en la psicología del aprendizaje?",
+                        "respuesta_usuario": "Un proceso que implica el uso de recompensas y castigos para modificar la conducta.",
+                        "respuesta_correcta_ia": "Un tipo de aprendizaje en el que se asocia un estímulo neutro con un estímulo que provoca una respuesta natural. (Recordatorio: Piensa en el experimento de Pavlov con los perros).",
+                        "fue_correcta": false
+                    },
+                    {
+                        "pregunta": "¿Cuál de los siguientes es un ejemplo de un proceso cognitivo?",
+                        "respuesta_usuario": "El pensamiento y la resolución de problemas.",
+                        "respuesta_correcta_ia": "El pensamiento y la resolución de problemas.",
+                        "fue_correcta": true
+                    }
+                ]
+            },
+            {
+                "fecha": "2025-07-21T00:16:06.058983",
+                "tipo": "Quiz de Práctica",
+                "tema": "Psicologia",
+                "resultado": "Correcta",
+                "pregunta": "¿Cuál de los siguientes es un ejemplo de un proceso cognitivo?",
+                "respuesta_usuario": "El pensamiento y la resolución de problemas.",
+                "respuesta_correcta_ia": "El pensamiento y la resolución de problemas.",
+                "fue_correcta": true
+            },
+            {
+                "fecha": "2025-07-21T00:15:59.445641",
+                "tipo": "Quiz de Práctica",
+                "tema": "Psicologia",
+                "resultado": "Incorrecta",
+                "pregunta": "¿Qué es el condicionamiento clásico, un concepto fundamental en la psicología del aprendizaje?",
+                "respuesta_usuario": "Un proceso que implica el uso de recompensas y castigos para modificar la conducta.",
+                "respuesta_correcta_ia": "Un tipo de aprendizaje en el que se asocia un estímulo neutro con un estímulo que provoca una respuesta natural. (Recordatorio: Piensa en el experimento de Pavlov con los perros).",
+                "fue_correcta": false
+            },
+            {
+                "fecha": "2025-07-21T00:15:46.013310",
+                "tipo": "Quiz de Práctica",
+                "tema": "Psicologia",
+                "resultado": "Correcta",
+                "pregunta": "¿Cuál de las siguientes opciones describe mejor el objeto de estudio de la psicología?",
+                "respuesta_usuario": "El estudio del comportamiento y los procesos mentales.",
+                "respuesta_correcta_ia": "El estudio del comportamiento y los procesos mentales.",
+                "fue_correcta": true
+            }
+        ],
+        "profesores_vinculados": [
+            "profesor1@gmail.com"
+        ],
+        "solicitudes_enviadas": [],
+        "invitaciones_profesor": [],
+        "notificaciones": [
+            {
+                "id": "notif_1753118063.99242",
+                "fecha": "2025-07-21T11:14:23.992420",
+                "texto": "Tu profesor, profesor1, te ha asignado un nuevo curso sobre 'investigacion de operaciones'.",
+                "leida": true
+            },
+            {
+                "id": "notif_1753075680.615011",
+                "fecha": "2025-07-20T23:28:00.615011",
+                "texto": "El profesor profesor1 te ha invitado a vincularte.",
+                "leida": true
+            }
+        ]
+    },
+    "profesor1@gmail.com": {
+        "nombre": "profesor1",
+        "contrasena_hash": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "rol": "profesor",
+        "perfil_completo": true,
+        "datos_perfil": {
+            "carrera": "ing sistemas",
+            "nivel_academico": "Doctorado",
+            "institucion": "instituto tecnologico de ciudad madero"
+        },
+        "progreso": {
+            "nivel": 1,
+            "racha_correctas": 0
+        },
+        "historial_temas": [],
+        "logros": {
+            "primer_quiz": null,
+            "mente_brillante": null,
+            "racha_5": null,
+            "polimata_5": null
+        },
+        "estadisticas": {
+            "preguntas_totales": 0,
+            "aciertos_totales": 0,
+            "rendimiento_por_tema": {}
+        },
+        "cursos": [],
+        "historial_actividad": [],
+        "alumnos_vinculados": [
+            "alumno1@gmail.com"
+        ],
+        "solicitudes_pendientes": []
+    }
+}
